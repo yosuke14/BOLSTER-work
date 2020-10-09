@@ -1,0 +1,144 @@
+@charset "utf-8";
+@media screen and (max-width: 480px) {
+	
+
+$cBlack:black;
+$cWhite:white;
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    $cBlack: black;
+    min-width: 370px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-area {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+// header
+
+.header-text {
+    color: $cWhite;
+    background-color: #296ba1;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+// main
+
+// .container-main {
+    
+// }
+
+.main {
+    display: block;
+    margin: 10px 0;
+    
+    &-title {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &-nav {
+        display: flex;
+        margin: auto 0px;
+        & i {
+            margin-right: 5px;
+        }
+    }
+
+    &-li {
+        font-size: 10px;
+        text-align: center;
+        margin: 10px auto 10px ;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+.visual {
+    height: 100px;
+    width: 100%;
+    background-color:#3e83ac;
+
+    &-text {
+        padding: 10px;
+        font-size: 12px;
+        color: #d9f0ffb0;
+        text-align: right;
+        line-height: 150px;
+    }
+}
+
+.information {
+    display: block;
+    margin: 20px 0;
+    &-title {
+        font-size: 12px;
+        border-bottom: 3px solid #236194;
+    }
+    &-block {
+        display: block;
+        border-bottom: 1px solid rgba(197, 25, 25, 0.103);
+    }
+    &-subtitle {
+        color: #556068b7;
+        width: 200px;
+        font-size: 10px;
+        padding: 10px 0 0 0;
+    }
+    &-subtext {
+        color: #556068b7;
+        font-size: 8px;
+        padding: 8px 0 10px 0;
+        text-decoration: underline;
+    }
+}
+
+.info-burner {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    & p {
+        color: #77808665;
+        text-align: right;
+        line-height: 110px;
+    }
+}
+
+.aside-burner {
+    height: 70px;
+    width: 200px;
+    background-color: rgba(165, 173, 179, 0.308);
+    margin:0;
+    &2 {
+        height: 70px;
+        width: 200px;
+        background-color: rgba(165, 173, 179, 0.308);
+        margin:0;
+    }
+}
+
+footer {
+    border-top: 1px solid rgba(197, 25, 25, 0.103);
+    color: #556068b7;
+    font-size: 4px;
+    padding-top: 10px;
+    text-align: center;
+    height: 70px;
+}
+
+}

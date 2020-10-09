@@ -1,0 +1,276 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  min-width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top-area {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0px;
+}
+
+.top-li {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #6493b9;
+  color: #d9f0ffb0;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-next {
+  color: white;
+}
+
+.information {
+  margin: 20px 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+}
+
+.information-title {
+  width: 100%;
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  text-align: center;
+  border-bottom: 3px solid #236194;
+}
+
+.information-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(197, 25, 25, 0.103);
+}
+
+.information-subtitle {
+  color: #556068b7;
+  min-width: 200px;
+  font-size: 10px;
+  margin: auto 0;
+  line-height: 30px;
+}
+
+.information-subtitle-p {
+  color: #556068b7;
+  min-width: 200px;
+  font-size: 10px;
+  margin: auto 0;
+  line-height: 50px;
+}
+
+.information-subtext {
+  color: #556068b7;
+  font-size: 10px;
+  padding: 10px 0 10px 10px;
+  text-decoration: underline;
+}
+
+.information-topic {
+  color: white;
+  background-color: #f85026;
+  padding: 2px 15px;
+  margin-left: 15px;
+}
+
+.information-topic-n {
+  color: white;
+  background-color: #236194;
+  padding: 2px 25px;
+  margin-left: 15px;
+}
+
+article {
+  width: 100%;
+}
+
+.aside-text {
+  line-height: 140px;
+  text-align: right;
+  color: rgba(165, 173, 179, 0.774);
+}
+
+.aside-top {
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  padding: 30px 0;
+}
+
+.aside-top-i {
+  padding: 3px;
+  color: white;
+  background-color: #236194;
+}
+
+.aside-burner {
+  height: 80px;
+  width: 180px;
+  background-color: rgba(165, 173, 179, 0.308);
+  margin: 15px 0 20px 40px;
+}
+
+.aside-burner2 {
+  height: 80px;
+  width: 180px;
+  background-color: rgba(165, 173, 179, 0.308);
+  margin: 15px -20px 20px 40px;
+}
+
+.event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.event-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.event-res {
+  display: none;
+}
+
+.event-main {
+  min-width: 375px;
+}
+
+.main {
+  width: 300px;
+  min-height: 300px;
+}
+
+.main-box {
+  width: 300px;
+  height: 180px;
+  background-color: rgba(165, 173, 179, 0.308);
+  margin-top: 20px;
+}
+
+.main-text {
+  font-size: 10px;
+  color: #556068b7;
+}
+
+.main-text-about {
+  padding: 10px 50px;
+  color: white;
+  background: #236194;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-text-about-bg {
+  margin-top: 50px;
+  background-color: none;
+  text-align: center;
+}
+
+.detail {
+  color: white;
+  background-color: #317fbe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detail-com {
+  margin: 20px 100px 30px 50px;
+}
+
+.detail-info {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.detail-info2 {
+  font-size: 10px;
+}
+
+.detail-menu {
+  margin: 25px 10px 30px 10px;
+  min-width: 300px;
+}
+
+.detail-title {
+  margin-bottom: 15px;
+  padding-right: 200px;
+  border-bottom: 2px solid white;
+  font-size: 10px;
+}
+
+.detail-text {
+  font-size: 10px;
+}
+
+footer {
+  border-top: 1px solid rgba(197, 25, 25, 0.103);
+  color: white;
+  background: #236194;
+  font-size: 3px;
+  padding-top: 10px;
+  text-align: center;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
